@@ -1,0 +1,21 @@
+
+header{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        .coffee-image {
+                width: 100px;
+                margin-right: 20px;
+        }
+}
+nav{
+
+
+}
+main{
+
+}
+
+body{
+
+}

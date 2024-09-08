@@ -12,8 +12,8 @@ public class TouristRepo {
 
     public TouristRepo() {
         touristAttractions.add(new TouristAttraction( "Tivoli","park"));
-        touristAttractions.add(new TouristAttraction( "test2","statue"));
-        touristAttractions.add(new TouristAttraction("test3","statue"));
+        touristAttractions.add(new TouristAttraction( "Amalienborg","slot"));
+        touristAttractions.add(new TouristAttraction("Nationalmuseet","museum"));
     }
 
     public List<TouristAttraction> getTouristAttractions() {

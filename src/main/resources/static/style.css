@@ -1,21 +1,111 @@
 
-header{
+/* Reset default margins and paddings */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+/* Set body and text styles */
+body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-image: url('københavn.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* Make sure the image stays fixed when scrolling */
+        color: #fff; /* White text for readability */
+}
+
+/* Header styles */
+header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+}
+
+/* Navigation styles */
+nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px;
+        text-align: center;
+}
+
+nav ul li {
+        display: inline-block;
+        margin: 0 15px;
+}
+
+nav ul li a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+        background-color: #007bff;
+        color: #fff;
+}
+
+/* Paragraph content styling */
+p {
+        text-align: center;
+        margin: 30px auto;
+        width: 80%;
+        font-size: 18px;
+        background-color: black;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+}
+
+footer ul {
+        list-style-type: none;
+        padding: 0;
+}
+
+footer ul li {
+        margin: 10px 0;
+}
+
+footer ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+}
+
+footer ul li a:hover {
+        color: #007bff;
+}
+
+/* Ensure page content takes up enough space */
+body, html {
+        min-height: 100%;
         display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-        .coffee-image {
-                width: 100px;
-                margin-right: 20px;
-        }
-}
-nav{
-
-
-}
-main{
-
+        flex-direction: column;
 }
 
-body{
-
+footer {
+        margin-top: auto;
 }
